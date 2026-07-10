@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="game-container">
+    <h2 class ="name">JUICE.sol</h2>
+    <h1>Rock Paper Scissors</h1>
+    <p class = "choice">Choose your move:</p>
+    <button onclick="playGame('rock')" class = "choice"><i class="fa-solid fa-hand-back-fist"></i>Rock</button>
+    <button onclick="playGame('paper')" class = "choice"><i class="fa-solid fa-hand"></i>Paper</button>
+    <button onclick="playGame('scissors')" class = "choice"><i class="fa-solid fa-hand-scissors"></i>Scissors</button>
+    <p id="player-choice"></p>
+    <p id="computer-choice"></p>
+    <p id="result"></p>
+    <div class="controls">
+        <button onclick="resetGame()" class="R-choice"><i class="fa-solid fa-rotate-right"></i>Reset Game</button>
+        <button onclick="quitGame()" class="Q-choice"><i class="fa-solid fa-right-from-bracket"></i>Quit Game</button>
+    </div>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+     background-image: url("wp9036182.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+
+.game-container {
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #ddd;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+.choice {
+    color: #666;
+    font-size: 1.2em;
+}
+.R-choice {
+    color: #4CAF50; /* Green for Reset */
+    font-size: 1.2em;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.Q-choice {
+    color: #f44336; /* Red for Quit */
+    font-size: 1.2em;
+    margin-top: 70px;
+}
+
+#player-choice,
+#computer-choice {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.controls{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:20px;
+}
+
+.controls button{
+    margin:0 8px;
+}
+button i{
+    margin-right: 6px;
+}
+.name{
+
+    font-size: 1.2em;
+    color:#bbb;
+    display: inline-block;
+}
